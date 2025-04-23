@@ -1,6 +1,6 @@
 module github.com/hashicorp/memberlist
 
-replace github.com/hashicorp/go-sockaddr => github.com/cwon2/go-sockaddr v0.0.1-rfctest
+replace github.com/hashicorp/go-sockaddr => github.com/cwon2/go-sockaddr v0.0.2-rfctest
 
 go 1.20
 
