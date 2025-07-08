@@ -1,4 +1,4 @@
-module github.com/cwon2/memberlist
+module github.com/hashicorp/memberlist
 
 // replace github.com/hashicorp/go-sockaddr => github.com/cwon2/go-sockaddr v0.0.3-rfctest
 
@@ -6,11 +6,11 @@ go 1.20
 
 require (
 	github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da
-	// github.com/hashicorp/go-sockaddr v1.0.0
-	github.com/cwon2/go-sockaddr v0.0.3-rfctest
 	github.com/google/btree v0.0.0-20180813153112-4030bb1f1f0c
 	github.com/hashicorp/go-msgpack/v2 v2.1.1
 	github.com/hashicorp/go-multierror v1.0.0
+	// github.com/hashicorp/go-sockaddr v1.0.0
+	github.com/hashicorp/go-sockaddr v1.0.7
 	github.com/miekg/dns v1.1.26
 	github.com/sean-/seed v0.0.0-20170313163322-e2103e2c3529
 	github.com/stretchr/testify v1.2.2
@@ -20,7 +20,6 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-immutable-radix v1.0.0 // indirect
-	github.com/hashicorp/go-sockaddr v1.0.7 // indirect
 	github.com/hashicorp/golang-lru v0.5.0 // indirect
 	github.com/pascaldekloe/goe v0.0.0-20180627143212-57f6aae5913c // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect

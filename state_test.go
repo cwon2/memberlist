@@ -17,7 +17,7 @@ import (
 	"time"
 
 	"github.com/armon/go-metrics"
-	iretry "github.com/cwon2/memberlist/internal/retry"
+	iretry "github.com/hashicorp/memberlist/internal/retry"
 	"github.com/stretchr/testify/require"
 )
 

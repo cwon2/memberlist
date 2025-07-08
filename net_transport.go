@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/armon/go-metrics"
-	sockaddr "github.com/cwon2/go-sockaddr"
+	sockaddr "github.com/hashicorp/go-sockaddr"
 )
 
 const (
